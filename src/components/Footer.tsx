@@ -12,8 +12,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <div className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent mb-4">
-              VGV SCALE
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/c4997705-7b88-4896-a646-10109a364f44.png" 
+                alt="VGV SCALE" 
+                className="h-12 w-12 mr-3"
+              />
+              <div className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+                VGV SCALE
+              </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
               A agência Full Sales especializada em imóveis de alto padrão que combina 

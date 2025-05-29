@@ -14,9 +14,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-bold bg-gradient-royal bg-clip-text text-transparent">
-              VGV SCALE
-            </div>
+            <img 
+              src="/lovable-uploads/17304e50-8ba3-41ba-986e-5947d440ea17.png" 
+              alt="VGV SCALE" 
+              className="h-10 w-10"
+            />
           </div>
 
           {/* Desktop Navigation */}
