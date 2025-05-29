@@ -14,9 +14,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
               <img 
-                src="/lovable-uploads/28c31882-ff0b-45f0-b6d0-3d132f647d02.png" 
+                src="/lovable-uploads/17579144-b332-473f-b890-82759a43accd.png" 
                 alt="VGV SCALE" 
-                className="h-12 w-12"
+                className="h-12 w-auto"
               />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
