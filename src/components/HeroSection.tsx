@@ -1,4 +1,3 @@
-
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -33,7 +32,7 @@ const HeroSection = () => {
               <div className="flex items-center justify-center mb-3">
                 <TrendingUp className="w-8 h-8 text-blue-200" />
               </div>
-              <div className="text-3xl font-bold text-white mb-2">R$ 4.6M+</div>
+              <div className="text-3xl font-bold text-white mb-2">R$ 500M+</div>
               <div className="text-blue-200">Em VGV Gerado</div>
             </div>
             <div className="glass-effect rounded-xl p-6">
