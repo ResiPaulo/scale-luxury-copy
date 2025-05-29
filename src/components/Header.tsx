@@ -15,7 +15,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="/lovable-uploads/17304e50-8ba3-41ba-986e-5947d440ea17.png" 
+              src="/lovable-uploads/1c5f1ea7-c4f1-4c38-a5bd-710d4df29364.png" 
               alt="VGV SCALE" 
               className="h-10 w-10"
             />
