@@ -16,7 +16,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/17579144-b332-473f-b890-82759a43accd.png" 
                 alt="VGV SCALE" 
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">

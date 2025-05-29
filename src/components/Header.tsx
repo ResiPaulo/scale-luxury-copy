@@ -17,7 +17,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/17579144-b332-473f-b890-82759a43accd.png" 
               alt="VGV SCALE" 
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </div>
 
