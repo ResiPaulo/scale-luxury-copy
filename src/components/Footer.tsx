@@ -77,11 +77,25 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center text-gray-400">
                 <Phone className="w-4 h-4 mr-2" />
-                <span>(44) 99152-5829</span>
+                <a 
+                  href="https://wa.me/5544991525829"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  (44) 99152-5829
+                </a>
               </div>
               <div className="flex items-center text-gray-400">
                 <Instagram className="w-4 h-4 mr-2" />
-                <span>@euarielton</span>
+                <a 
+                  href="https://instagram.com/euarielton"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  @euarielton
+                </a>
               </div>
             </div>
 
