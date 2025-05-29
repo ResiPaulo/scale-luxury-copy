@@ -1,4 +1,3 @@
-
 import { Instagram, Phone, Mail, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
@@ -14,7 +13,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="mb-4">
               <img 
-                src="/lovable-uploads/bc4b43ed-e55d-44ab-90bd-2e60c98d5952.png" 
+                src="/lovable-uploads/997775ff-1547-4d2c-85db-51a6b1b79340.png" 
                 alt="VGV SCALE" 
                 className="h-20 w-auto"
               />
