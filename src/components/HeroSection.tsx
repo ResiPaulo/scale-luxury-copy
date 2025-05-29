@@ -66,7 +66,12 @@ const HeroSection = () => {
               variant="outline"
               size="lg"
               className="border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300"
-              onClick={() => document.getElementById('solucoes')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => {
+                const solucoesSection = document.getElementById('solucoes');
+                if (solucoesSection) {
+                  solucoesSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               Conheça Nossas Soluções
             </Button>
