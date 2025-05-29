@@ -129,7 +129,7 @@ const SolutionsSection = () => {
           <div className="text-center">
             <Button 
               size="lg"
-              className="bg-white text-royal-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300"
+              className="bg-white text-royal-blue-600 hover:bg-blue-50 font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 hover:shadow-lg"
               onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
             >
               Desperte Sua Autoridade Digital
