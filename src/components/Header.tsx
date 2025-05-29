@@ -1,4 +1,5 @@
 
+
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -15,7 +16,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="/lovable-uploads/17579144-b332-473f-b890-82759a43accd.png" 
+              src="/lovable-uploads/c859d5ce-4333-49b5-b45b-2aad0f0c728a.png" 
               alt="VGV SCALE" 
               className="h-14 w-auto"
             />
@@ -99,3 +100,4 @@ const Header = () => {
 };
 
 export default Header;
+
