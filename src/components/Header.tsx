@@ -1,5 +1,4 @@
 
-
 import { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -18,7 +17,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/c859d5ce-4333-49b5-b45b-2aad0f0c728a.png" 
               alt="VGV SCALE" 
-              className="h-14 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
@@ -100,4 +99,3 @@ const Header = () => {
 };
 
 export default Header;
-
