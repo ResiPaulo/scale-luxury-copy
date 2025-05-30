@@ -62,19 +62,6 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				},
-				'royal-blue': {
-					50: '#eff6ff',
-					100: '#dbeafe',
-					200: '#bfdbfe',
-					300: '#93c5fd',
-					400: '#60a5fa',
-					500: '#3b82f6',
-					600: '#2563eb',
-					700: '#1d4ed8',
-					800: '#1e40af',
-					900: '#1e3a8a',
-					950: '#172554'
 				}
 			},
 			borderRadius: {
@@ -113,10 +100,6 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.6s ease-out',
 				'slide-in': 'slide-in 0.5s ease-out'
-			},
-			backgroundImage: {
-				'gradient-royal': 'linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%)',
-				'gradient-royal-dark': 'linear-gradient(135deg, #172554 0%, #1e3a8a 50%, #1d4ed8 100%)'
 			}
 		}
 	},
