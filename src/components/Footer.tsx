@@ -1,3 +1,4 @@
+
 import { Instagram, Phone, Mail, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
@@ -115,7 +116,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 VGV SCALE Marketing. Todos os direitos reservados.
+            © 2025 VGV SCALE Marketing. Todos os direitos reservados.
           </div>
           
           <button 
