@@ -22,7 +22,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-            A única agência Full Sales especializada em imóveis de alto padrão que combina 
+            A única agência Máquina de Vendas especializada em imóveis de alto padrão que combina 
             <strong className="text-white"> estratégia premium, tecnologia avançada e execução impecável</strong> 
             para escalar suas vendas com sofisticação.
           </p>

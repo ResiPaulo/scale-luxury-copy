@@ -34,7 +34,7 @@ const PricingSection = () => {
       popular: false
     },
     {
-      name: "Full Sales Pro",
+      name: "Máquina de Vendas Pro",
       setup: "R$ 2.200",
       monthly: "R$ 5.400",
       icon: Zap,
@@ -70,7 +70,7 @@ const PricingSection = () => {
       icon: Crown,
       description: "Solução premium completa",
       features: [
-        "Full Sales + Agente IA completo",
+        "Máquina de Vendas + Agente IA completo",
         "Textos para portais de imóveis",
         "Treinamentos e conteúdo bônus",
         "Campanha de distribuição premium",
@@ -112,7 +112,7 @@ const PricingSection = () => {
       description: "Redação estratégica para um dos agentes: SDR, Closer ou SAC"
     },
     {
-      name: "Diagnóstico Estratégico Full Sales",
+      name: "Diagnóstico Estratégico Máquina de Vendas",
       price: "R$ 1.400,00",
       description: "Análise de funil, tráfego, conversão e presença digital"
     }
@@ -127,7 +127,7 @@ const PricingSection = () => {
             Planos de <span className="bg-gradient-royal bg-clip-text text-transparent">Contratação</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Soluções completas em Full Sales, Agente IA e Consultorias Premium. 
+            Soluções completas em Máquina de Vendas, Agente IA e Consultorias Premium. 
             Escolha o plano ideal para transformar sua presença digital e acelerar suas vendas.
           </p>
         </div>

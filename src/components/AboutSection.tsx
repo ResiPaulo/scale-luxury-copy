@@ -1,4 +1,3 @@
-
 import { Target, Users, Trophy, Lightbulb } from 'lucide-react';
 import InstagramEmbed from './InstagramEmbed';
 
@@ -11,7 +10,7 @@ const AboutSection = () => {
             Sobre a <span className="bg-gradient-royal bg-clip-text text-transparent">VGV SCALE</span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
-            Somos uma agência Full Sales especializada no mercado imobiliário de alto padrão, 
+            Somos uma agência Máquina de Vendas especializada no mercado imobiliário de alto padrão, 
             combinando estratégia premium, tecnologia avançada e execução impecável para 
             transformar leads em vendas extraordinárias.
           </p>
@@ -78,7 +77,7 @@ const AboutSection = () => {
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">Nossa Visão</h3>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-              Ser a referência nacional em marketing Full Sales para o segmento imobiliário premium, 
+              Ser a referência nacional em marketing Máquina de Vendas para o segmento imobiliário premium, 
               reconhecida pela excelência e inovação em cada projeto.
             </p>
           </div>

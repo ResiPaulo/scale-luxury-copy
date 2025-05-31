@@ -58,7 +58,7 @@ const SolutionsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 px-2">
-            Soluções <span className="bg-gradient-royal bg-clip-text text-transparent">Full Sales</span> Premium
+            Soluções <span className="bg-gradient-royal bg-clip-text text-transparent">Máquina de Vendas</span> Premium
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
             Estratégia digital de ponta a ponta: do tráfego ao fechamento. 
@@ -94,7 +94,7 @@ const SolutionsSection = () => {
         <div className="bg-gradient-royal rounded-2xl p-6 sm:p-8 md:p-12 text-white">
           <div className="text-center mb-8 sm:mb-12">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 px-2">
-              Full Sales para o Mercado Imobiliário de Alto Padrão
+              Máquina de Vendas para o Mercado Imobiliário de Alto Padrão
             </h3>
             <p className="text-lg sm:text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed px-4">
               A única solução completa que integra todas as ferramentas e estratégias necessárias 
