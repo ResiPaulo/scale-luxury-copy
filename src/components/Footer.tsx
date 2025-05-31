@@ -33,7 +33,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5" />
               </a>
               <a 
-                href="https://instagram.com/euarielton"
+                href="https://www.instagram.com/vgvscale/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-pink-600 hover:bg-pink-700 p-3 rounded-full transition-colors"
@@ -93,12 +93,12 @@ const Footer = () => {
               <div className="flex items-center text-gray-400">
                 <Instagram className="w-4 h-4 mr-2" />
                 <a 
-                  href="https://instagram.com/euarielton"
+                  href="https://www.instagram.com/vgvscale/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  @euarielton
+                  @vgvscale
                 </a>
               </div>
             </div>
