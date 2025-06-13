@@ -66,7 +66,7 @@ const HeroSection = () => {
             <Button 
               variant="outline"
               size="lg"
-              className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300"
+              className="w-full sm:w-auto border-2 border-white text-royal-blue-600 bg-white hover:bg-blue-50 hover:text-royal-blue-700 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300"
               onClick={() => {
                 const solucoesSection = document.getElementById('solucoes');
                 if (solucoesSection) {

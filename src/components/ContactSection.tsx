@@ -72,7 +72,7 @@ const ContactSection = () => {
               <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-200">
                 <h4 className="text-base sm:text-lg font-semibold text-gray-900 mb-3 sm:mb-4">Pronto para começar?</h4>
                 <Button 
-                  className="w-full bg-gradient-royal hover:bg-gradient-royal-dark text-white font-semibold py-3 px-4 sm:px-6 rounded-xl transition-all duration-300 text-sm sm:text-base"
+                  className="w-full bg-white hover:bg-blue-50 text-royal-blue-600 border border-royal-blue-600 font-semibold py-3 px-4 sm:px-6 rounded-xl transition-all duration-300 text-sm sm:text-base"
                   onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
                 >
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />

@@ -43,7 +43,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
             <Button 
-              className="bg-gradient-royal hover:bg-gradient-royal-dark text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300"
+              className="bg-gradient-royal hover:bg-gradient-royal-dark text-royal-blue-600 px-6 py-2 rounded-lg font-semibold transition-all duration-300 bg-white hover:bg-blue-50"
               onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
             >
               <Phone className="w-4 h-4 mr-2" />
@@ -83,7 +83,7 @@ const Header = () => {
               </a>
               <div className="px-3 py-2">
                 <Button 
-                  className="w-full bg-gradient-royal hover:bg-gradient-royal-dark text-white px-6 py-2 rounded-lg font-semibold"
+                  className="w-full bg-white hover:bg-blue-50 text-royal-blue-600 px-6 py-2 rounded-lg font-semibold border border-royal-blue-600"
                   onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
                 >
                   <Phone className="w-4 h-4 mr-2" />
