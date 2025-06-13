@@ -1,10 +1,7 @@
-
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -54,26 +51,19 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
-            <Button 
-              size="lg"
-              className="w-full sm:w-auto bg-white text-royal-blue-600 hover:bg-blue-50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
-            >
+            <Button size="lg" className="w-full sm:w-auto bg-white text-royal-blue-600 hover:bg-blue-50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300 transform hover:scale-105" onClick={() => window.open('https://wa.me/5544991525829', '_blank')}>
               <span className="hidden sm:inline">Solicite Sua Apresentação Estratégica</span>
               <span className="sm:hidden">Apresentação Estratégica</span>
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="w-full sm:w-auto border-2 border-white text-royal-blue-600 bg-white hover:bg-blue-50 hover:text-royal-blue-700 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300"
-              onClick={() => {
-                const solucoesSection = document.getElementById('solucoes');
-                if (solucoesSection) {
-                  solucoesSection.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
+            <Button variant="outline" size="lg" className="w-full sm:w-auto border-2 border-white text-royal-blue-600 bg-white hover:bg-blue-50 hover:text-royal-blue-700 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300" onClick={() => {
+            const solucoesSection = document.getElementById('solucoes');
+            if (solucoesSection) {
+              solucoesSection.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          }}>
               <span className="hidden sm:inline">Conheça Nossas Soluções</span>
               <span className="sm:hidden">Nossas Soluções</span>
             </Button>
@@ -81,14 +71,10 @@ const HeroSection = () => {
 
           {/* Scroll Indicator */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden sm:block">
-            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
-            </div>
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
