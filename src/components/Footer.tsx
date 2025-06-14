@@ -1,4 +1,3 @@
-
 import { Instagram, Phone, Mail, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
@@ -20,25 +19,24 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
-              A agência Full Sales especializada em imóveis de alto padrão que combina 
-              estratégia premium, tecnologia avançada e execução impecável.
+              Agência de marketing imobiliário focada em resultados. Estratégia, tecnologia e execução unidas para transformar vendas.
             </p>
             <div className="flex space-x-4">
               <a 
                 href="https://wa.me/5544991525829"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 p-3 rounded-full transition-colors"
+                className="bg-white hover:bg-green-400 p-3 rounded-full transition-colors"
               >
-                <Phone className="w-5 h-5" />
+                <Phone className="w-5 h-5 text-green-600" />
               </a>
               <a 
                 href="https://www.instagram.com/vgvscale/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-pink-600 hover:bg-pink-700 p-3 rounded-full transition-colors"
+                className="bg-white hover:bg-pink-600 p-3 rounded-full transition-colors"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-5 h-5 text-royal-blue-600" />
               </a>
             </div>
           </div>
