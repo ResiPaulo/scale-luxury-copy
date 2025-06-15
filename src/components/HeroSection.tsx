@@ -1,7 +1,10 @@
+
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const HeroSection = () => {
-  return <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
+  return (
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -11,17 +14,18 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2">
-            Transforme Seu <span className="text-blue-200">VGV</span> Em
+            Se o seu <span className="text-blue-200">Instagram</span> só dá like de colega e o seu anúncio só atrai curioso...
             <br />
             <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">
-              Resultados Extraordinários
+              tem algo errado com a sua estratégia.
             </span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-            A única agência Máquina de Vendas especializada em imóveis de alto padrão que combina 
-            <strong className="text-white"> estratégia premium, tecnologia avançada e execução impecável</strong> 
-            para escalar suas vendas com sofisticação.
+            Aqui na VGV Scale a gente não brinca de marketing.<br />
+            A gente constrói posicionamento, atrai o cliente certo e entrega resultado com tráfego, funil e atendimento afiado no WhatsApp.
+            <br /><br />
+            <strong className="text-white">Somos a agência 100% focada no mercado imobiliário</strong> — com cases reais, leads quentes e campanhas que vendem de verdade.
           </p>
 
           {/* Stats */}
@@ -52,8 +56,8 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
             <Button size="lg" className="w-full sm:w-auto bg-white text-royal-blue-600 hover:bg-blue-50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300 transform hover:scale-105" onClick={() => window.open('https://wa.me/5544991525829', '_blank')}>
-              <span className="hidden sm:inline">Solicite Sua Apresentação Estratégica</span>
-              <span className="sm:hidden">Apresentação Estratégica</span>
+              <span className="hidden sm:inline">Quero escalar minhas vendas agora</span>
+              <span className="sm:hidden">Escalar Vendas Agora</span>
               <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             <Button variant="outline" size="lg" className="w-full sm:w-auto border-2 border-white text-royal-blue-600 bg-white hover:bg-blue-50 hover:text-royal-blue-700 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300" onClick={() => {
@@ -75,6 +79,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;
