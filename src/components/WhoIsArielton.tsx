@@ -10,6 +10,9 @@ const WhoIsArielton = () => {
         <div className="flex-1">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Quem é Arielton Pires?</h2>
           <p className="text-lg sm:text-xl text-gray-700 mb-4 leading-relaxed max-w-2xl">
+            De dentro da imobiliária para mentor de corretores em todo o Brasil
+          </p>
+          <p className="text-lg sm:text-xl text-gray-700 mb-4 leading-relaxed max-w-2xl">
             Arielton Pires é fundador da VGV Scale, especialista em estratégias digitais para o setor imobiliário, com <span className="font-semibold text-royal-blue-600">12+ anos de experiência</span> transformando resultados. 
           </p>
           <p className="text-lg sm:text-xl text-gray-700 mb-4 leading-relaxed max-w-2xl">
