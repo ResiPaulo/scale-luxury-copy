@@ -1,4 +1,5 @@
 
+
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 const HeroSection = () => {
@@ -16,9 +17,8 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-            A única agência Máquina de Vendas especializada em imóveis de alto padrão que combina 
-            <strong className="text-white"> estratégia premium, tecnologia avançada e execução impecável</strong> 
-            para escalar suas vendas com sofisticação.
+            A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras.
+            Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo — a gente vende com você.
           </p>
 
           {/* Stats */}
@@ -75,3 +75,4 @@ const HeroSection = () => {
     </section>;
 };
 export default HeroSection;
+
