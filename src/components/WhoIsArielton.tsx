@@ -1,5 +1,12 @@
+
 import { Instagram } from "lucide-react";
+
 const WhoIsArielton = () => {
-  return;
+  return (
+    <div>
+      {/* Component content will be added later */}
+    </div>
+  );
 };
+
 export default WhoIsArielton;

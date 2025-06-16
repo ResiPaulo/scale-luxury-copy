@@ -1,5 +1,7 @@
+
 import { Check, Star, Bot, Crown, Rocket, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const PricingSection = () => {
   const plans = [{
     name: "Máquina de Vendas",
@@ -17,6 +19,12 @@ const PricingSection = () => {
     description: "Agente digital integrado automatizando triagem e qualificação de leads com direcionamento eficiente.",
     features: ["Atendimento imediato 24/7", "Cadastro automático de leads", "Integração WhatsApp e Meta", "Relatórios de performance"]
   }];
-  return;
+  
+  return (
+    <div>
+      {/* Component content will be added later */}
+    </div>
+  );
 };
+
 export default PricingSection;
