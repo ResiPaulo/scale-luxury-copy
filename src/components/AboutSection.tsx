@@ -159,7 +159,7 @@ const AboutSection = () => {
             <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
               <div className="flex-1 text-center lg:text-left">
                 <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-6">
-                  Especialista em marketing imobiliário, ajuda corretores a se posicionarem com autoridade no digital e venderem mais através de estratégia, conteúdo e tráfego. Autor do livro <strong>Posicionamento na Prática</strong>.
+                  <strong>Arielton Pires</strong>, especialista em marketing imobiliário, ajuda corretores a se posicionarem com autoridade no digital e venderem mais através de estratégia, conteúdo e tráfego. Autor do livro <strong>Posicionamento na Prática</strong>.
                 </p>
               </div>
               
