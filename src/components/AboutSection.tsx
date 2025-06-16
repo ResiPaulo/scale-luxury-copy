@@ -1,3 +1,4 @@
+
 import { Target, Users, Trophy, Lightbulb, Settings, Megaphone, Bot, Palette, Filter, GraduationCap } from 'lucide-react';
 import InstagramEmbed from './InstagramEmbed';
 
