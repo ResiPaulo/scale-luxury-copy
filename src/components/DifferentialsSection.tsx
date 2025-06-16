@@ -5,7 +5,9 @@ import {
   Settings, 
   Flame, 
   BarChart, 
-  Handshake
+  Handshake,
+  CheckCircle,
+  Star
 } from 'lucide-react';
 
 const DifferentialsSection = () => {
