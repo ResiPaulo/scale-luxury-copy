@@ -1,60 +1,32 @@
-
-import { 
-  Target, 
-  Brain, 
-  Settings, 
-  Flame, 
-  BarChart, 
-  Handshake,
-  CheckCircle,
-  Star
-} from 'lucide-react';
-
+import { Target, Brain, Settings, Flame, BarChart, Handshake, CheckCircle, Star } from 'lucide-react';
 const DifferentialsSection = () => {
-  const differentials = [
-    {
-      icon: Target,
-      emoji: "🎯",
-      title: "Foco 100% no mercado imobiliário"
-    },
-    {
-      icon: Brain,
-      emoji: "🧠",
-      title: "Estratégia pensada para funis de venda reais"
-    },
-    {
-      icon: Settings,
-      emoji: "⚙️",
-      title: "CRM, conteúdo, tráfego e automação no mesmo lugar"
-    },
-    {
-      icon: Flame,
-      emoji: "🔥",
-      title: "Roteiros, criativos e vídeos com copy que machuca"
-    },
-    {
-      icon: BarChart,
-      emoji: "📊",
-      title: "Acompanhamento com relatórios claros"
-    },
-    {
-      icon: Handshake,
-      emoji: "🤝",
-      title: "Acesso direto ao estrategista (sem repasse pra estagiário)"
-    }
-  ];
-
-  const benefits = [
-    "Aumento médio de 300% no volume de leads qualificados",
-    "Redução de 60% no tempo de conversão",
-    "Elevação significativa da percepção de marca",
-    "ROI positivo já nos primeiros 60 dias",
-    "Automação completa dos processos comerciais",
-    "Posicionamento como autoridade no mercado"
-  ];
-
-  return (
-    <section id="diferenciais" className="py-20 bg-gray-50">
+  const differentials = [{
+    icon: Target,
+    emoji: "🎯",
+    title: "Foco 100% no mercado imobiliário"
+  }, {
+    icon: Brain,
+    emoji: "🧠",
+    title: "Estratégia pensada para funis de venda reais"
+  }, {
+    icon: Settings,
+    emoji: "⚙️",
+    title: "CRM, conteúdo, tráfego e automação no mesmo lugar"
+  }, {
+    icon: Flame,
+    emoji: "🔥",
+    title: "Roteiros, criativos e vídeos com copy que machuca"
+  }, {
+    icon: BarChart,
+    emoji: "📊",
+    title: "Acompanhamento com relatórios claros"
+  }, {
+    icon: Handshake,
+    emoji: "🤝",
+    title: "Acesso direto ao estrategista (sem repasse pra estagiário)"
+  }];
+  const benefits = ["Aumento médio de 300% no volume de leads qualificados", "Redução de 60% no tempo de conversão", "Elevação significativa da percepção de marca", "ROI positivo já nos primeiros 60 dias", "Automação completa dos processos comerciais", "Posicionamento como autoridade no mercado"];
+  return <section id="diferenciais" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -68,17 +40,13 @@ const DifferentialsSection = () => {
 
         {/* Differentials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {differentials.map((differential, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+          {differentials.map((differential, index) => <div key={index} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
                 <span className="text-4xl mr-4">{differential.emoji}</span>
-                <div className="bg-gradient-royal rounded-lg w-14 h-14 flex items-center justify-center">
-                  <differential.icon className="w-7 h-7 text-white" />
-                </div>
+                
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">{differential.title}</h3>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         {/* Results Section */}
@@ -95,12 +63,10 @@ const DifferentialsSection = () => {
               </p>
               
               <ul className="space-y-4">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start">
+                {benefits.map((benefit, index) => <li key={index} className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">{benefit}</span>
-                  </li>
-                ))}
+                  </li>)}
               </ul>
             </div>
 
@@ -128,9 +94,7 @@ const DifferentialsSection = () => {
               </div>
 
               <div className="flex items-center justify-center space-x-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
-                ))}
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />)}
               </div>
               <p className="text-center text-blue-100">
                 "A VGV SCALE transformou completamente nossa operação. Em 5 meses, 
@@ -170,8 +134,6 @@ const DifferentialsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default DifferentialsSection;
