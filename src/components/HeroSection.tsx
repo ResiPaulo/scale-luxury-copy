@@ -1,10 +1,7 @@
-
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -14,9 +11,7 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           {/* Small subtitle */}
-          <p className="text-lg sm:text-xl text-blue-200 mb-8 font-medium">
-            A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras.
-          </p>
+          
 
           {/* Main Hero Block - Strategic Text */}
           <div className="glass-effect rounded-2xl p-8 sm:p-12 mb-8 sm:mb-12 max-w-5xl mx-auto">
@@ -95,8 +90,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
