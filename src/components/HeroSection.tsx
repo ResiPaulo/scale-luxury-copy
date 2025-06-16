@@ -1,5 +1,3 @@
-
-
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 const HeroSection = () => {
@@ -16,10 +14,7 @@ const HeroSection = () => {
             <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">Like não paga boleto. Indicação não escala.</span>
           </h1>
           
-          <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">
-            A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras.
-            Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo — a gente vende com você.
-          </p>
+          <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras. Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo, a gente vende com você.</p>
 
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-12 max-w-4xl mx-auto px-4">
@@ -75,4 +70,3 @@ const HeroSection = () => {
     </section>;
 };
 export default HeroSection;
-
