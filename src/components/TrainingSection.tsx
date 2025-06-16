@@ -1,5 +1,5 @@
 
-import { Users, Target, TrendingUp, ArrowRight, Presentation, Building2, UserCheck } from 'lucide-react';
+import { Users, Target, TrendingUp, ArrowRight, Presentation, Building2, UserCheck, X, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const TrainingSection = () => {
@@ -36,6 +36,29 @@ const TrainingSection = () => {
         "Desenvolvimento estratégico",
         "Implementação de melhorias"
       ]
+    }
+  ];
+
+  const comparisons = [
+    {
+      without: "Publica só por postar",
+      with: "Cria conteúdo com intenção de venda"
+    },
+    {
+      without: "Paga tráfego e torce",
+      with: "Investe em anúncios com segmentação real"
+    },
+    {
+      without: "Responde no improviso",
+      with: "Usa WhatsApp com funil e automação"
+    },
+    {
+      without: "Leads frios e perdidos",
+      with: "Leads qualificados, nutridos e prontos pra fechar"
+    },
+    {
+      without: "Corre atrás de clientes",
+      with: "Atrai clientes certos até o fechamento"
     }
   ];
 
@@ -116,6 +139,63 @@ const TrainingSection = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* Comparison Section */}
+        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-16">
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-8">
+            Você decide onde quer estar
+          </h3>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Without Strategy Column */}
+              <div className="space-y-6">
+                <div className="text-center">
+                  <h4 className="text-2xl font-bold text-red-600 mb-4 flex items-center justify-center">
+                    <X className="w-6 h-6 mr-2" />
+                    Sem estratégia
+                  </h4>
+                </div>
+                {comparisons.map((comparison, index) => (
+                  <div key={index} className="bg-red-50 border border-red-200 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <X className="w-5 h-5 text-red-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">{comparison.without}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* With VGV Scale Column */}
+              <div className="space-y-6">
+                <div className="text-center">
+                  <h4 className="text-2xl font-bold text-green-600 mb-4 flex items-center justify-center">
+                    <Check className="w-6 h-6 mr-2" />
+                    Com a VGV Scale
+                  </h4>
+                </div>
+                {comparisons.map((comparison, index) => (
+                  <div key={index} className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <Check className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
+                      <span className="text-gray-700">{comparison.with}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <Button 
+                size="lg"
+                className="bg-gradient-royal hover:bg-gradient-royal-dark text-white px-8 py-4 rounded-xl font-bold text-lg"
+                onClick={() => window.open('https://wa.me/5544991525829?text=👉 Quero sair da média! Gostaria de saber mais sobre a VGV Scale.', '_blank')}
+              >
+                👉 Quero sair da média
+              </Button>
+            </div>
+          </div>
         </div>
 
         {/* CTA Section */}
