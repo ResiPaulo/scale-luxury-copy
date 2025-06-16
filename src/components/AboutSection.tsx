@@ -1,5 +1,4 @@
-
-import { Target, Users, Trophy, Lightbulb, Settings, Megaphone, Bot, Palette, Funnel, GraduationCap } from 'lucide-react';
+import { Target, Users, Trophy, Lightbulb, Settings, Megaphone, Bot, Palette, Filter, GraduationCap } from 'lucide-react';
 import InstagramEmbed from './InstagramEmbed';
 
 const AboutSection = () => {
@@ -47,7 +46,7 @@ const AboutSection = () => {
       ]
     },
     {
-      icon: Funnel,
+      icon: Filter,
       title: "FUNIS COMPLETOS",
       items: [
         "Landing pages de alta conversão",
