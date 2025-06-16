@@ -1,4 +1,3 @@
-
 import { Target, Users, Trophy, Lightbulb, Settings, Megaphone, Bot, Palette, Filter, GraduationCap } from 'lucide-react';
 import InstagramEmbed from './InstagramEmbed';
 
@@ -145,6 +144,33 @@ const AboutSection = () => {
                 </ul>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Nova Seção - Quem está por trás da VGV Scale */}
+        <div className="mt-16 sm:mt-20">
+          <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-lg">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                Quem está por trás da <span className="bg-gradient-royal bg-clip-text text-transparent">VGV Scale</span>?
+              </h2>
+            </div>
+
+            <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+              <div className="flex-1 text-center lg:text-left">
+                <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-6">
+                  Especialista em marketing imobiliário, ajuda corretores a se posicionarem com autoridade no digital e venderem mais através de estratégia, conteúdo e tráfego. Autor do livro <strong>Posicionamento na Prática</strong>.
+                </p>
+              </div>
+              
+              <div className="flex-shrink-0">
+                <img 
+                  src="/lovable-uploads/4404d43d-6745-4fba-b160-8a6b720293c7.png" 
+                  alt="Livro Posicionamento na Prática - Arielton Pires" 
+                  className="w-64 h-auto object-contain shadow-xl rounded-lg"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
