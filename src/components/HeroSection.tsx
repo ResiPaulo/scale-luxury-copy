@@ -1,3 +1,4 @@
+
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 const HeroSection = () => {
@@ -11,8 +12,6 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2">
-            Transforme Seu <span className="text-blue-200">VGV</span> Em
-            <br />
             <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">Like não paga boleto. Indicação não escala.</span>
           </h1>
           
