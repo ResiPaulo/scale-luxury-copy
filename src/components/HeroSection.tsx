@@ -1,5 +1,7 @@
+
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
       {/* Background Pattern */}
@@ -11,10 +13,35 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2">
-            <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">Corretores, imobiliárias e construtoras: vocês não precisam de mais seguidores. Precisam de estratégia pra vender.</span>
+            <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">Like não paga boleto. Indicação não escala.</span>
           </h1>
           
-          <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras. Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo, a gente vende com você.</p>
+          <p className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-6 sm:mb-8 max-w-4xl mx-auto leading-relaxed px-4">A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras. Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo — a gente vende com você.</p>
+
+          {/* New Strategic Text Block */}
+          <div className="glass-effect rounded-2xl p-6 sm:p-8 mb-8 sm:mb-12 max-w-4xl mx-auto">
+            <div className="space-y-4 text-left">
+              <p className="text-base sm:text-lg text-white font-medium leading-relaxed">
+                Corretores, imobiliárias e construtoras: vocês não precisam de mais seguidores. Precisam de estratégia pra vender.
+              </p>
+              <p className="text-base sm:text-lg text-blue-100 leading-relaxed">
+                Seu conteúdo pode até estar bonito, mas se não estiver conectado com um funil de vendas, ele só serve pra enfeitar o feed.
+              </p>
+              <p className="text-base sm:text-lg text-blue-100 leading-relaxed">
+                Na VGV Scale, a gente entra pra escalar seus resultados com posicionamento, tráfego e automação.
+              </p>
+              <div className="pt-2">
+                <Button 
+                  size="lg" 
+                  className="bg-white text-royal-blue-600 hover:bg-blue-50 px-6 py-3 rounded-xl font-bold text-base transition-all duration-300 transform hover:scale-105" 
+                  onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
+                >
+                  👉 Quero vender com estratégia
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
+            </div>
+          </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-12 max-w-4xl mx-auto px-4">
