@@ -1,46 +1,44 @@
 
 import { 
-  Award, 
   Target, 
-  Users, 
-  Zap, 
-  CheckCircle, 
-  Star,
-  TrendingUp,
-  Shield
+  Brain, 
+  Settings, 
+  Flame, 
+  BarChart, 
+  Handshake
 } from 'lucide-react';
 
 const DifferentialsSection = () => {
   const differentials = [
     {
-      icon: Award,
-      title: "Especialização Exclusiva",
-      description: "Foco 100% no mercado imobiliário de alto padrão com metodologias desenvolvidas especificamente para este segmento premium."
-    },
-    {
-      icon: Zap,
-      title: "Tecnologia + Estética",
-      description: "Perfeita harmonia entre performance técnica e refinamento visual, garantindo resultados sem abrir mão da sofisticação."
-    },
-    {
-      icon: Users,
-      title: "Equipe Multidisciplinar",
-      description: "Time de especialistas com expertise comprovada em vendas, branding premium e tecnologia avançada."
-    },
-    {
       icon: Target,
-      title: "Estratégias Personalizadas",
-      description: "Cada projeto é único, com estratégias desenvolvidas sob medida e acompanhamento semanal detalhado."
+      emoji: "🎯",
+      title: "Foco 100% no mercado imobiliário"
     },
     {
-      icon: Shield,
-      title: "Atendimento Premium",
-      description: "Relacionamento próximo, comunicação direta e entregas com padrão de excelência que você espera."
+      icon: Brain,
+      emoji: "🧠",
+      title: "Estratégia pensada para funis de venda reais"
     },
     {
-      icon: TrendingUp,
-      title: "ROI Comprovado",
-      description: "Track record consistente de crescimento, com cases de sucesso e resultados mensuráveis."
+      icon: Settings,
+      emoji: "⚙️",
+      title: "CRM, conteúdo, tráfego e automação no mesmo lugar"
+    },
+    {
+      icon: Flame,
+      emoji: "🔥",
+      title: "Roteiros, criativos e vídeos com copy que machuca"
+    },
+    {
+      icon: BarChart,
+      emoji: "📊",
+      title: "Acompanhamento com relatórios claros"
+    },
+    {
+      icon: Handshake,
+      emoji: "🤝",
+      title: "Acesso direto ao estrategista (sem repasse pra estagiário)"
     }
   ];
 
@@ -70,11 +68,13 @@ const DifferentialsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {differentials.map((differential, index) => (
             <div key={index} className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="bg-gradient-royal rounded-lg w-14 h-14 flex items-center justify-center mb-6">
-                <differential.icon className="w-7 h-7 text-white" />
+              <div className="flex items-center mb-6">
+                <span className="text-4xl mr-4">{differential.emoji}</span>
+                <div className="bg-gradient-royal rounded-lg w-14 h-14 flex items-center justify-center">
+                  <differential.icon className="w-7 h-7 text-white" />
+                </div>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">{differential.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{differential.description}</p>
             </div>
           ))}
         </div>
