@@ -1,7 +1,10 @@
+
 import { ArrowRight, TrendingUp, Users, Target } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const HeroSection = () => {
-  return <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
+  return (
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-royal overflow-hidden pt-16 sm:pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -10,32 +13,36 @@ const HeroSection = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2">
-            
-          </h1>
-          
-          
+          {/* Small subtitle */}
+          <p className="text-lg sm:text-xl text-blue-200 mb-8 font-medium">
+            A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras.
+          </p>
 
-          {/* New Strategic Text Block */}
-          <div className="glass-effect rounded-2xl p-6 sm:p-8 mb-8 sm:mb-12 max-w-4xl mx-auto">
-            <div className="space-y-4 text-left">
-              <p className="text-base sm:text-lg text-white font-medium leading-relaxed">
+          {/* Main Hero Block - Strategic Text */}
+          <div className="glass-effect rounded-2xl p-8 sm:p-12 mb-8 sm:mb-12 max-w-5xl mx-auto">
+            <div className="space-y-6 text-left">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
                 Corretores, imobiliárias e construtoras: vocês não precisam de mais seguidores. Precisam de estratégia pra vender.
-              </p>
-              <p className="text-base sm:text-lg text-blue-100 leading-relaxed">
+              </h1>
+              <p className="text-lg sm:text-xl text-blue-100 leading-relaxed">
                 Seu conteúdo pode até estar bonito, mas se não estiver conectado com um funil de vendas, ele só serve pra enfeitar o feed.
               </p>
-              <p className="text-base sm:text-lg text-blue-100 leading-relaxed">
+              <p className="text-lg sm:text-xl text-blue-100 leading-relaxed">
                 Na VGV Scale, a gente entra pra escalar seus resultados com posicionamento, tráfego e automação.
               </p>
-              <div className="pt-2">
-                <Button size="lg" className="bg-white text-royal-blue-600 hover:bg-blue-50 px-6 py-3 rounded-xl font-bold text-base transition-all duration-300 transform hover:scale-105" onClick={() => window.open('https://wa.me/5544991525829', '_blank')}>
+              <div className="pt-4">
+                <Button size="lg" className="bg-white text-royal-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105" onClick={() => window.open('https://wa.me/5544991525829', '_blank')}>
                   👉 Quero vender com estratégia
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                  <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </div>
             </div>
           </div>
+
+          {/* Supporting text */}
+          <p className="text-base sm:text-lg text-blue-200 mb-8 max-w-3xl mx-auto">
+            Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo — a gente vende com você.
+          </p>
 
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-12 max-w-4xl mx-auto px-4">
@@ -88,6 +95,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;
