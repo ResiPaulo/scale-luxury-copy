@@ -11,39 +11,40 @@ const HeroSection = () => {
         <div className="absolute top-3/4 right-1/4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="animate-fade-in">
           {/* Main Hero Block - Strategic Text */}
-          <div className="glass-effect rounded-3xl p-8 sm:p-12 lg:p-16 mb-12 sm:mb-16 mx-auto">
-            <div className="space-y-8 text-center max-w-4xl mx-auto">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Corretores, imobiliárias e construtoras: vocês não precisam de mais seguidores. Precisam de estratégia pra vender.
+          <div className="text-center space-y-8 mb-16">
+            <div className="space-y-6 max-w-4xl mx-auto">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+                Corretores, imobiliárias e construtoras: vocês não precisam de mais seguidores. 
+                <span className="block mt-2">Precisam de estratégia pra vender.</span>
               </h1>
               
-              <div className="space-y-6 text-xl sm:text-2xl text-blue-100 leading-relaxed max-w-3xl mx-auto">
+              <div className="space-y-4 text-lg sm:text-xl text-blue-100 leading-relaxed max-w-3xl mx-auto">
                 <p>
                   Seu conteúdo pode até estar bonito, mas se não estiver conectado com um funil de vendas, ele só serve pra enfeitar o feed.
                 </p>
-                <p>
+                <p className="text-base sm:text-lg text-blue-200">
                   Na VGV Scale, a gente entra pra escalar seus resultados com posicionamento, tráfego e automação.
                 </p>
               </div>
               
-              <div className="pt-6">
+              <div className="pt-4">
                 <Button 
                   size="lg" 
-                  className="bg-white text-royal-blue-600 hover:bg-blue-50 px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl" 
+                  className="bg-white text-royal-blue-600 hover:bg-blue-50 px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl" 
                   onClick={() => window.open('https://wa.me/5544991525829', '_blank')}
                 >
                   👉 Quero vender com estratégia
-                  <ArrowRight className="ml-3 h-6 w-6" />
+                  <ArrowRight className="ml-3 h-5 w-5" />
                 </Button>
               </div>
             </div>
           </div>
 
           {/* Supporting text */}
-          <p className="text-lg sm:text-xl text-blue-200 mb-12 max-w-4xl mx-auto text-center leading-relaxed">
+          <p className="text-base sm:text-lg text-blue-200 mb-12 max-w-4xl mx-auto text-center leading-relaxed">
             A VGV Scale é a agência que entrega resultado real para corretores, imobiliárias e construtoras.
             Com tráfego pago, funis inteligentes, atendimento no WhatsApp e conteúdo que cria desejo — a gente vende com você.
           </p>
