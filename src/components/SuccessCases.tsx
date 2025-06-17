@@ -1,12 +1,18 @@
 
+
 const SuccessCases = () => {
   const clients = [
     {
       name: "RESIDERE Construtora e Incorporadora",
       logo: "/lovable-uploads/b9657178-4684-44ad-88b8-cb79b94e94a7.png",
       description: "Construtora e Incorporadora"
+    },
+    {
+      name: "Studio Benê Arquitetura",
+      logo: "/lovable-uploads/0ab5b0e8-67e3-4827-bcf5-62109e3b72b6.png",
+      description: "Arquitetura e Design"
     }
-    // Espaço para mais 2 clientes
+    // Espaço para mais 1 cliente
   ];
 
   return (
@@ -35,16 +41,14 @@ const SuccessCases = () => {
             </div>
           ))}
           
-          {/* Placeholder para os próximos 2 clientes */}
-          {[...Array(2)].map((_, index) => (
-            <div key={`placeholder-${index}`} className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center border-2 border-dashed border-gray-200">
-              <div className="w-32 h-32 mb-6 flex items-center justify-center bg-gray-100 rounded-lg">
-                <span className="text-gray-400 font-semibold">Logo {index + 2}</span>
-              </div>
-              <h3 className="text-lg font-bold text-gray-400 mb-2">Cliente {index + 2}</h3>
-              <p className="text-gray-400 text-sm">Em breve</p>
+          {/* Placeholder para o próximo cliente */}
+          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center border-2 border-dashed border-gray-200">
+            <div className="w-32 h-32 mb-6 flex items-center justify-center bg-gray-100 rounded-lg">
+              <span className="text-gray-400 font-semibold">Logo 3</span>
             </div>
-          ))}
+            <h3 className="text-lg font-bold text-gray-400 mb-2">Cliente 3</h3>
+            <p className="text-gray-400 text-sm">Em breve</p>
+          </div>
         </div>
 
         {/* CTA Section */}
@@ -65,3 +69,4 @@ const SuccessCases = () => {
 };
 
 export default SuccessCases;
+
