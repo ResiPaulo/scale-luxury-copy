@@ -1,4 +1,3 @@
-
 import { Users, Target, TrendingUp, ArrowRight, Presentation, Building2, UserCheck, X, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -218,9 +217,8 @@ const TrainingSection = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
-              variant="outline"
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-royal-blue-600 px-8 py-4 rounded-xl font-bold text-lg"
+              className="bg-white text-royal-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg"
               onClick={() => window.open('https://instagram.com/euarielton', '_blank')}
             >
               Ver no Instagram
