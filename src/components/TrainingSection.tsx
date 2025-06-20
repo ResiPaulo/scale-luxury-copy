@@ -1,3 +1,4 @@
+
 import { Users, Target, TrendingUp, ArrowRight, Presentation, Building2, UserCheck, X, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -219,7 +220,7 @@ const TrainingSection = () => {
             <Button 
               size="lg"
               className="bg-white text-royal-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg"
-              onClick={() => window.open('https://instagram.com/euarielton', '_blank')}
+              onClick={() => window.open('https://instagram.com/vgvscale', '_blank')}
             >
               Ver no Instagram
             </Button>
@@ -232,7 +233,7 @@ const TrainingSection = () => {
             </div>
             <div className="bg-white/10 rounded-xl p-4">
               <div className="text-lg font-semibold mb-2">Instagram</div>
-              <div className="text-blue-200">@euarielton</div>
+              <div className="text-blue-200">@vgvscale</div>
             </div>
           </div>
         </div>
